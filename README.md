@@ -28,3 +28,6 @@ keywords = {geometric modeling, L-systems, neural networks}
 
 # Data
 * .lstring files are uploaded to Google Drive. Please see the urls under `data/lstrings.txt`
+
+# Visualization
+* Please refer to https://github.com/edisonlee0212/PlantArchitect
