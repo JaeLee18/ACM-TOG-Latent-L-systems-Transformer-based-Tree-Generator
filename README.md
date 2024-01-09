@@ -1,5 +1,6 @@
-# [ACM-Transactions On Graphics] Latent-L-systems:Transformer-based-Tree-Generator
-If our paper has been helpful, we kindly ask that you cite it in your work.
+# [Official] Latent-L-systems:Transformer based Tree Generator
+If our paper has been helpful, we kindly ask that you cite it in your work. https://dl.acm.org/doi/10.1145/3627101
+
 ```
 @article{10.1145/3627101,
 author = {Lee, Jae Joong and Li, Bosheng and Benes, Bedrich},
@@ -20,7 +21,6 @@ numpages = {16},
 keywords = {geometric modeling, L-systems, neural networks}
 }
 ```
-https://dl.acm.org/doi/10.1145/3627101
 
 # Video
 [![Intro Video](https://img.youtube.com/vi/1SPSQ-IwcvQ/0.jpg)](https://www.youtube.com/watch?v=1SPSQ-IwcvQ)
