@@ -27,4 +27,4 @@ keywords = {geometric modeling, L-systems, neural networks}
 
 
 # Data
-* .lstring files are uploaded to Google Drive. Please see the urls under `data/lstrings`
+* .lstring files are uploaded to Google Drive. Please see the urls under `data/lstrings.txt`
