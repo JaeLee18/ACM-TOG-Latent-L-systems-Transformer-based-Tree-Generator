@@ -1,4 +1,29 @@
 # [Official] Latent-L-systems:Transformer based Tree Generator
+
+# Environment
+```
+conda env create -f environment.yml
+```
+
+# Data
+* .lstring files are uploaded to Google Drive. Please see the urls under `data/lstrings.txt`
+
+# Visualization
+* Please refer to https://github.com/edisonlee0212/PlantArchitect
+
+# Steps
+1) First, put a folder with *.lstring files on the same directory.
+```
+├── Acacia
+│   ├── *.lstring
+├── preprocessing.py
+```    
+2) Run the Preprocessing file. It will do all the jobs. It will take about 2 hours using multi-processing with all CPUs.
+```
+python preprocessing.py
+```
+3) Work In Progress
+
 If our paper has been helpful, we kindly ask that you cite it in your work. https://dl.acm.org/doi/10.1145/3627101
 
 ```
@@ -26,8 +51,4 @@ keywords = {geometric modeling, L-systems, neural networks}
 [![Intro Video](https://img.youtube.com/vi/1SPSQ-IwcvQ/0.jpg)](https://www.youtube.com/watch?v=1SPSQ-IwcvQ)
 
 
-# Data
-* .lstring files are uploaded to Google Drive. Please see the urls under `data/lstrings.txt`
 
-# Visualization
-* Please refer to https://github.com/edisonlee0212/PlantArchitect
