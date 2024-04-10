@@ -22,7 +22,15 @@ conda env create -f environment.yml
 ```
 python preprocessing.py
 ```
-3) Work In Progress
+3) Training
+* Set the correct file paths from Step2 in train.py Line#32, Line#36, Line#40, Line#41
+```
+python train.pt
+```
+4) Inference
+```
+WIP
+```
 
 If our paper has been helpful, we kindly ask that you cite it in your work. https://dl.acm.org/doi/10.1145/3627101
 
