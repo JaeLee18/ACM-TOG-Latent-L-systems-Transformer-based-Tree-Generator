@@ -25,7 +25,7 @@ python preprocessing.py
 3) Training
 * Set the correct file paths from Step2 in train.py Line#32, Line#36, Line#40, Line#41
 ```
-python train.pt
+python train.py
 ```
 4) Inference
 ```
