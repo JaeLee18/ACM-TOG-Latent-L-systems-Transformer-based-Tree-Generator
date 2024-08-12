@@ -10,6 +10,7 @@ conda env create -f environment.yml
 
 # Visualization
 * Please refer to https://github.com/edisonlee0212/PlantArchitect
+* I will add more explanations.
 
 # Steps
 1) First, put a folder with *.lstring files on the same directory.
@@ -28,8 +29,11 @@ python preprocessing.py
 python train.py
 ```
 4) Inference
+* Line#41, 43, 45 change the file path from the preprocessing. Line#46 update this to the model .pth file path.
+* Line#47, the default is 5, which generate 5 lstring files. Ex) If you want to generate 100 files, set it to 100.
+* Check `def export_lstring_file` function to update the save path for the lstring file.
 ```
-WIP
+python generate.py
 ```
 
 If our paper has been helpful, we kindly ask that you cite it in your work. https://dl.acm.org/doi/10.1145/3627101
